@@ -11,7 +11,7 @@ typedef struct
     int iRotate;
     int iAxisRow;
     int iAxisCol;
-}Brick;
+}BrickStc;
 
 int InitGame();
 int UpdateScene();

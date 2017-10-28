@@ -5,7 +5,7 @@
 #include "control.h"
 #include "view.h"
 
-int main()
+int main1()
 {
     InitGame();
     DrawScene();

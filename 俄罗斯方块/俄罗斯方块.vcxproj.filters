@@ -24,12 +24,39 @@
     <ClCompile Include="view.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="control.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="view.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

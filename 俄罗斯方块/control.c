@@ -4,7 +4,7 @@
 #include <string.h>
 #include <conio.h>
 
-Brick g_brick;
+BrickStc g_brick;
 
 
 const int g_iInitBackGround[GAME_ROW] =
@@ -72,7 +72,7 @@ int InitGame()
 
 int TryRotate()
 {
-    Brick tmpBrick = { 0 };
+    BrickStc tmpBrick = { 0 };
     int i = 0;
     memcpy(&tmpBrick, &g_brick, sizeof(g_brick));
     
@@ -96,7 +96,7 @@ int TryRotate()
 
 int TryMove(int x, int y)
 {
-    Brick tmpBrick = { 0 };
+    BrickStc tmpBrick = { 0 };
     int i = 0;
     memcpy(&tmpBrick, &g_brick, sizeof(g_brick));
 
