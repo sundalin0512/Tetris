@@ -1,9 +1,9 @@
 #pragma once
-class Block
+class Brick
 {
 public:
-	Block();
-	~Block();
+	Brick();
+	~Brick();
 
 private:
 	int iData[4];

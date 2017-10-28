@@ -5,6 +5,6 @@ public:
 	Game();
 	~Game();
 
-	void start();
+	void start() {}
 };
 

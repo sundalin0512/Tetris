@@ -111,7 +111,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Brick.cpp" />
     <ClCompile Include="control.c" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.c" />
@@ -121,7 +121,7 @@
     <ClCompile Include="view.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Block.h" />
+    <ClInclude Include="Brick.h" />
     <ClInclude Include="control.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Map.h" />
