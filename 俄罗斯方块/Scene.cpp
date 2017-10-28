@@ -2,11 +2,3 @@
 
 
 
-Scene::Scene()
-{
-}
-
-
-Scene::~Scene()
-{
-}
