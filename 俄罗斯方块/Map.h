@@ -14,6 +14,11 @@ public:
 	{
 
 	}
+	void reset()
+	{
+		for (int i = 0; i < GAME_ROW; i++)
+			m_rows[i] = g_iInitBackGround[i];
+	}
 	unsigned int getRow(size_t index) const
 	{
 		return m_rows[index];
@@ -22,8 +27,10 @@ public:
 	{
 		m_rows[index] = data;
 	}
+	//返回删除的行数
 	int TryDeleteLines()
 	{
+		int count = 0;
 		int i = -1;
 		for (i = GAME_ROW - 2; i > 0; i--)
 		{
@@ -36,9 +43,10 @@ public:
 				}
 				m_rows[0] = g_iInitBackGround[0];
 				i++;
+				count++;
 			}
 		}
-		return 0;
+		return count;
 	}
 
 
