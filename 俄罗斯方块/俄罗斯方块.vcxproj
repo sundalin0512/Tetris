@@ -132,6 +132,7 @@
   <ItemGroup>
     <Image Include="Icon.ico" />
     <Image Include="icon2.ico" />
+    <Image Include="icon3.ico" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="俄罗斯方块.rc" />

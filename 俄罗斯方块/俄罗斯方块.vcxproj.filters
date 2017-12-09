@@ -58,6 +58,9 @@
     <Image Include="icon2.ico">
       <Filter>资源文件</Filter>
     </Image>
+    <Image Include="icon3.ico">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="俄罗斯方块.rc">
